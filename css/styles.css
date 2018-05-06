@@ -1,0 +1,45 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #424447;
+}
+
+h2 {
+/*	border: 1px solid gold;*/
+	display: flex;
+	justify-content: center;
+	margin: 40px 0px 10px 0px;
+	font-weight: 500;
+	letter-spacing: 1px;
+/*	font-size: x-large;*/
+/*only use font-weight if using Playfair Display*/
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+}
+
+.nav_container {
+	/*border: 1px solid gold;*/
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.nav_container a {
+	/*border: 1px solid pink;*/
+	display: flex;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #424447;
+}
+
+.nav_container a:link, a:visited {
+	text-decoration: none;
+}
+
+.nav_container a:hover {
+	text-decoration: none;
+	color: lightgray;
+}
+
+.w100 {
+	font-weight: 300;
+}
