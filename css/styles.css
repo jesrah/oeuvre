@@ -1,28 +1,49 @@
+/********************
+GENERAL
+********************/
+
 body {
+	display: flex;
+	flex-direction: column;
+	min-height: 98vh;
 	font-family: 'Montserrat', sans-serif;
 	color: #424447;
 }
 
-h2 {
+a {
+	text-decoration: none;
+	color: #424447;
+}
+
+h1 {
 /*	border: 1px solid gold;*/
 	display: flex;
 	justify-content: center;
 	margin: 40px 0px 10px 0px;
 	font-weight: 500;
 	letter-spacing: 1px;
-/*	font-size: x-large;*/
+	font-size: xx-large;
 /*only use font-weight if using Playfair Display*/
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
 }
+
+h1 a:link, a:visited, a:hover {
+	text-decoration: none;
+	color: #424447;
+}
+
+/********************
+NAVIGATION
+********************/
 
 .nav_container {
 	/*border: 1px solid gold;*/
 	display: flex;
 	justify-content: center;
 	font-family: 'Montserrat', sans-serif;
-
 }
+
 .nav_container a {
 	/*border: 1px solid pink;*/
 	display: flex;
@@ -40,6 +61,86 @@ h2 {
 	color: lightgray;
 }
 
-.w100 {
+.w300 {
 	font-weight: 300;
+}
+
+/********************
+PAGE: INDEX
+********************/
+.site-content {
+	display: flex;
+	flex: 1;
+	align-items: center;
+}
+.content-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	margin: 10px;
+/*	border: 2px solid blue;*/
+}
+
+.caption {
+	font-weight: 300;
+	font-size: small;
+	margin: 6px 0px 0px 2px;
+}
+
+.landing-pic {
+	height: 84%;
+	width: 84%;
+	border-radius: 12px;
+	margin: 5px;
+	display: flex;
+	align-content: center;
+}
+
+/********************
+FOOTER
+********************/
+
+footer {
+	font-weight: 300;
+/*	border: 1px solid red;*/
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.footer-text {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-weight: bold;
+	font-size: small;
+	margin: 3px;
+}
+
+.footer-text-tiny {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+/*	margin: 10px 0px 0px 0px;*/
+/*	border: 3px solid orange;*/
+	margin: 0px;
+	font-size: x-small;
+}
+
+.footer-icons {
+	display: flex;
+	justify-content: center;
+}
+
+.social-icons {
+	width: 20px;
+	height: 10px;
+	margin: 0px 5px 5px 10px;
+	fill: #424447;
+}
+
+
+
+.social-icons:hover {
+	color: lightgray;
 }
