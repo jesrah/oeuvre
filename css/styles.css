@@ -147,9 +147,9 @@ PAGE: INDEX
 	margin: 6px 0px 0px 2px;
 }
 
-/*.tech-stack-heading {
+.tech-stack-heading {
 	margin-bottom: 0px;
-}*/
+}
 
 .contact, .coming-soon{
 	text-align: center;
@@ -203,6 +203,10 @@ PAGE: ART
 
 .art-container img {
 	max-width: 1000px;
+}
+
+.art-container a {
+	color: gray;
 }
 
 .caption {
@@ -295,6 +299,32 @@ PAGE: EXTRAS
 .title {
 	color: #ce897b;
 	font-weight: bold;
+}
+
+/********************
+CV
+********************/
+.cv-container {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	font-size: small;
+	align-items: center;
+	flex-direction: column;
+	margin: 10px;
+	margin-bottom: 15px;
+}
+
+.cv-container img {
+	max-width: 1000px;
+}
+
+.cv-container a {
+	color: #ce897b;
+}
+
+.cv-container a:hover {
+	color: lightgray;
 }
 /********************
 FOOTER
