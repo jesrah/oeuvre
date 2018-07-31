@@ -33,6 +33,12 @@ h1 a:link, a:visited, a:hover {
 	color: #424447;
 }
 
+.selected a {
+	text-decoration: underline;
+	text-decoration-color: pink;
+	border-bottom: 2px solid pink;
+}
+
 /********************
 NAVIGATION
 ********************/
@@ -114,13 +120,14 @@ PAGE: INDEX
 /*	border: 2px solid blue;*/
 }
 
+.about-container a {
+	color: #ce897b;
+}
 .about-container a:link, a:visited {
-	text-decoration: none;
 }
 
 .about-container a:hover {
-	text-decoration: none;
-	color: hotpink;
+	color: lightgray;
 }
 
 .portrait-pic {
@@ -144,12 +151,20 @@ PAGE: INDEX
 	margin-bottom: 0px;
 }*/
 
-.contact {
+.contact, .coming-soon{
 	text-align: center;
 	max-width: 40%;
 	font-weight: 300;
 	font-size: small;
 	margin: 6px 0px 0px 2px;
+}
+
+.coming-soon a {
+	color: #ce897b;
+}
+
+.coming-soon a:hover {
+	color: lightgray;
 }
 
 ul {
@@ -205,6 +220,34 @@ PAGE: ART
 	display: flex;
 	align-content: center;
 }
+
+/********************
+TECH
+********************/
+
+.construction {
+	height: 84%;
+	width: 84%;
+	border-radius: 2px;
+	margin: 5px;
+	display: flex;
+	align-content: center;
+}
+
+.construction-container {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	font-size: small;
+	align-items: center;
+	flex-direction: column;
+	margin: 10px;
+	margin-bottom: 15px;
+}
+.construction-container img {
+	max-width: 500px;
+}
+
 /********************
 FOOTER
 ********************/
