@@ -40,7 +40,7 @@ h1 a:link, a:visited, a:hover {
 }
 
 /********************
-NAVIGATION
+xIGATION
 ********************/
 
 .nav_container {
@@ -53,6 +53,7 @@ NAVIGATION
 .nav_container a {
 	/*border: 1px solid pink;*/
 	display: flex;
+	flex-direction: row;
 	padding-left: 8px;
 	padding-right: 8px;
 	color: #424447;
@@ -225,6 +226,24 @@ PAGE: ART
 	align-content: center;
 }
 
+/********************
+PAGE: PLANTS
+********************/
+iframe {
+	margin: 0;
+	padding: 10px;
+	border: none;
+	width: 70vw;
+	height: 70vw;
+}
+
+.text {
+	text-align: left;
+	max-width: 40%;
+	font-weight: 300;
+	font-size: small;
+	margin: 6px 0px 0px 2px;
+}
 /********************
 TECH
 ********************/
